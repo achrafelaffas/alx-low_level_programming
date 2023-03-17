@@ -9,15 +9,17 @@
  * Description: if-else program.
  * Return: (0) always - Success.
  */
-int main(void)
+int main (void)
 {
 	char ch = 'a';
 
-	while(ch <= 'z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
