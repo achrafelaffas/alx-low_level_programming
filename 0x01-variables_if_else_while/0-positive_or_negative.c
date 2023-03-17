@@ -9,8 +9,7 @@
  * Description: if-else program.
  * Return: (0) always - Success.
  */
-
-int main(void) 
+int main(void)
 {
 	int n;
 
