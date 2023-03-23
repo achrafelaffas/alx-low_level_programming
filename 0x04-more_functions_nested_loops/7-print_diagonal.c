@@ -10,18 +10,26 @@
 
 void print_diagonal(int n)
 {
-	int i;
+	int r, numLINES;
 
-	for (i <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (i = 0; i < n; i++)
+		for (r = 1; row <= n; r++)
 		{
-			_putchar('\');
+			if (r > 1)
+			{
+				for (numLINES = 1; numLINES <= r - 1; numLINES++)
+				{
+					_putchar(' ');
+				}
+			}
+
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
