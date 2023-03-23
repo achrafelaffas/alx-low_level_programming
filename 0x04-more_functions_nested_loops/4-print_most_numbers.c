@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_most_numbers -  prints the numbers
+ * print_most_numbers - entry point
+ *
+ * Description: Prints the numbers with _putchar
  *
  * Return: void
  */
