@@ -10,7 +10,7 @@ int main(void)
         int number;
 
         number = 0;
-        printf(positive_or_negative(number));
+        printf"%d is zero", (positive_or_negative(number));
 
         return (0);
 }
