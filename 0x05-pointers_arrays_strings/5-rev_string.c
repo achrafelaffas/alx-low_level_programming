@@ -11,15 +11,8 @@
 
 void rev_string(char *s)
 {
-	char *start = s;
-	int c;
-	char *end;
-
-	while (s[c] != '\0')
-		c++;
-
-	*end = s + c - 1;
-
+	char* start = s;
+	char* end = s + 10 - 1;
 	char temp;
 
 	while (end > start)
