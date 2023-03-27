@@ -14,14 +14,15 @@ void puts_half(char *str)
 	char *end = str;
 	char *start = str;
 	int length = 0;
+	int half;
 
 	while (*end != '\0')
 	{
 		end++;
 		length++;
 	}
-
-	int half = (length + 1) / 2;
+	
+	half = (length + 1) / 2;
 
 	if (length % 2 != 0)
 	{
@@ -34,10 +35,10 @@ void puts_half(char *str)
 
 	while (*start != '\0')
 	{
-		putchar(*start);
+		_putchar(*start);
 		start++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
 
