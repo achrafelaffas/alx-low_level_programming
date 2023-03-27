@@ -12,19 +12,17 @@
 void rev_string(char *s)
 {
 	char *start = s;
-	char *end;
-	char temp;
-	int len = 0;
+	char *end = s;
 
-	while (*s != '\0')
+	while (*end != '\0')
 	{
-		len++;
-		s++;
+		end++;
 	}
-	end = s + len;
+	end--;
+
 	while (end > start)
 	{
-		temp = *start;
+		char temp = *start;
 		*start = *end;
 		*end = temp;
 		start++;
