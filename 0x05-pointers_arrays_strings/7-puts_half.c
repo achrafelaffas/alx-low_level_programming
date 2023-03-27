@@ -8,19 +8,14 @@
  * Return: void
  */
 
-void puts_half(char *str)
-{
-	char *end = str;
+void puts_half(char* str) {
+	int length = strlen(str);
+	int half = (length + 1) / 2;
 	int i;
 
-	while (*end != '\0')
+	for (i = half; i < length; i++)
 	{
-		end++;
-	}
-
-	for (i = 0; i < end / 2; i++)
-	{
-		_putchar(*str);
+		_putchar(str[i]);
 	}
 
 	_putchar('\n');
