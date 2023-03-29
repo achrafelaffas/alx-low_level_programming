@@ -6,7 +6,7 @@
  * @dest: the destination to append to
  * @src: the string to append
  *
- * @Return: the concatenated string.
+ * Return: the concatenated string.
  */
 
 char *_strcat(char *dest, char *src)
@@ -16,11 +16,13 @@ char *_strcat(char *dest, char *src)
 		dest++;
 	}
 
-	while(*src)
+	while (*src)
 	{
-		*dest = src*;
+		*dest = *src;
 		dest++;
 		src++;
 	}
 	dest = '\0';
+
+	return (*dest);
 }
