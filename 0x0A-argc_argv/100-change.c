@@ -50,6 +50,7 @@ int main(int argc, char *argv[])
 	if (amount < 0)
 	{
 		printf("0\n");
+		return (0);
 	}
 
 	int num_coins = min_coins(amount);
