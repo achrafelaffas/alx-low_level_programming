@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
 * min_coins - Calculates the minimum number of coins required to make change
