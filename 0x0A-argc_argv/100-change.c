@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
 	if (total <= 0)
 	{
 		printf("0\n");
+		return (0);
 	}
 
 	while (coins[position] != '\0')
