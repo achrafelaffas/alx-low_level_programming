@@ -2,17 +2,11 @@
 #include <stdlib.h>
 
 /**
- * int_index - looks for an integer
- *
- * @array: pointer to an array of elements
- * @size: the size of the array
- *
- * @cmp: pointer to a function
- *
- * Return: the index of the first element
- * for which the cmp function does not return 0
- * If no element matches, return -1
- * If size <= 0, return -1
+ * int_index - function that search for an integer
+ * @array: Type int array pointer
+ * @size: Type pointer size of the array
+ * @cmp: Type pointer to the function compare values
+ * Return: return -1 if size <=0 or elem no matches -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
