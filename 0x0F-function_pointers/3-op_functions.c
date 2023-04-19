@@ -4,7 +4,7 @@
  * @b: second operand
  * Return: a + b
  */
- 
+
 int op_add(int a, int b)
 {
 	return (a + b);
